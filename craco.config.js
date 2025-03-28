@@ -5,12 +5,15 @@ module.exports = {
         configure: {
             resolve: {
                 fallback: {
-                    "crypto": require.resolve("crypto-browserify"),
+                    "url": require.resolve("url/"),
+                    "assert": require.resolve("assert/"),
                     "stream": require.resolve("stream-browserify"),
                     "http": require.resolve("stream-http"),
                     "https": require.resolve("https-browserify"),
-                    "zlib": require.resolve("browserify-zlib"),
+                    "os": require.resolve("os-browserify/browser"),
+                    "crypto": require.resolve("crypto-browserify"),
                     "buffer": require.resolve("buffer/"),
+                    "zlib": require.resolve("browserify-zlib"),
                 }
             },
             plugins: [
