@@ -2,6 +2,8 @@
 
 A modern web application for creating and managing tokens on the Solana blockchain. Built with React, TypeScript, and Material-UI.
 
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black.svg?style=flat-square)](https://solana-token-app.vercel.app)
+
 ## Features
 
 - **Wallet Integration**
@@ -19,6 +21,10 @@ A modern web application for creating and managing tokens on the Solana blockcha
   - Real-time transaction feedback
   - Clear error handling
   - Mobile-friendly layout
+
+## Live Demo
+
+Visit the live application at [https://solana-token-app.vercel.app](https://solana-token-app.vercel.app)
 
 ## Prerequisites
 
